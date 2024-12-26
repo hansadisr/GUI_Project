@@ -9,12 +9,14 @@ import Contact from './Pages/Contact';
 import Book from './Pages/Book';
 import Stay from './Pages/Stay';
 import Activities from './Pages/Activities';
+import Footer from './components/Footer';
 
 
 
 
 function App() {
   return (
+    <div>
     <Router>
             <Navbar />
             <Routes>
@@ -26,6 +28,8 @@ function App() {
                 <Route path="/Contact" element={<Contact />} />
             </Routes>
         </Router>
+        <Footer/>
+        </div>
   );
 }
 
