@@ -3,24 +3,29 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 5px 2rem;
     background-color: #78927e;
     color: white;
+    position: relative;
+    z-index: 10;
 }
 
-.navbar-logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+.navbar-logo img {
+    width: 120px;
 }
+
 
 .navbar-links {
     list-style: none;
     display: flex;
-    gap: 1rem;
+    transition: all 0.3s ease-in-out;
+    gap: 2rem;
 }
 
 .navbar-links li {
     text-transform: uppercase;
+    font-family: Raleway;
+    letter-spacing: 1px;
 }
 
 .navbar-links a {
@@ -30,5 +35,5 @@
 }
 
 .navbar-links a:hover {
-    color: #ff9800;
+    color: #063231;
 }
