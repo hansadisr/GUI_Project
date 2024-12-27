@@ -127,7 +127,7 @@
   object-fit: cover;
   /*filter: brightness(80%); /* Makes the image darker */
   /*transition: filter 0.3s ease;*/
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .image-wrapper:hover img {
@@ -140,13 +140,16 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.3s ease;
+  -webkit-text-stroke: 0.7px black;
+  -webkit-text-fill-color: white;
+  /*opacity: 0;
+  transition: opacity 0.3s ease;*/
+
 }
 
 .image-wrapper:hover .image-overlay {
