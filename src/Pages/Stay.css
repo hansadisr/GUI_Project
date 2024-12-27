@@ -1,0 +1,262 @@
+.stay-container {
+    font-family: Arial, sans-serif;
+    color: #3a3a3a;
+  }
+  
+  .map {
+    background-image: url('../Images/stay_images/camping.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .park-map-button {
+    /* background-color: #8ca290; */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: solid 3px white;
+  }
+  
+  .accommodation {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0e0d8;
+  }
+  
+  .accommodation h2,
+  .map-location h2 {
+    margin-bottom: 20px;
+    color: #78927e;
+    font-family: montserrat;
+    letter-spacing: 2px;
+    font-weight: 400;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .option {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .option img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .option img:hover {
+    transform: scale(1.1);
+  }
+  
+  .option p {
+    margin-top: 10px;
+    color:rgb(87, 70, 46);
+    font-family: Raleway;
+    font-size: 19px;
+    letter-spacing: 1.1px;
+  }
+  
+  .map-location {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+  }
+
+  .map-image img{
+    width: 60%;
+  }
+  
+  .camping-section,
+  .glamping-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #5f7761; /* Match the background color */
+    padding: 20px;
+    color: white;
+  }
+  
+  .stay-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+  }
+  
+  .stay-image{
+    width: 100%;
+    max-width: 600px;
+    align-items: center;
+
+  }
+  .stay-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .stay-info {
+    flex: 1;
+    padding: 20px;
+    color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .stay-info h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+    font-family: Montserrat;
+    line-height: 36px;
+    font-weight: 400;
+    letter-spacing: 5px;
+  }
+  
+  .stay-info h3 {
+    font-size: 30px;
+    margin: 10px 0;
+    font-family: Montserrat;
+    line-height: 36px;
+    font-weight: 400;
+    letter-spacing: 5px;
+  }
+  
+  .stay-info p {
+    font-size: 19px;
+    margin-bottom: 15px;
+    font-family: Raleway;
+    line-height: 28px;
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+  
+  .stay-info h4 {
+    font-size: 19px;
+    margin-bottom: 10px;
+    font-family: Raleway;
+    line-height: 25px;
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+
+  .facilities{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .facilities ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .facilities ul li {
+    margin-bottom: 10px;
+    font-family: Raleway;
+    line-height: 25px;
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+
+  .book-button {
+    background-color: #8fb493;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-transform: uppercase;
+    width: 75%;
+    font-family: Raleway;
+    line-height: 25px;
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+  
+  .book-button:hover {
+    background-color: #e0e0d8;
+    color: #2c1a27;
+  }
+  
+  .caravan-section {
+    display: flex;
+  flex-wrap: wrap;
+  background-color: #e0e0d8; /* Match the background color */
+  padding: 20px;
+  color: white;
+}
+
+.book-button2 {
+  background-color: #55685d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-transform: uppercase;
+  width: 75%;
+  font-family: Raleway;
+  line-height: 25px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.book-button2:hover {
+  background-color: #8fb493;
+  color: #2c1a27;
+}
+
+.cabin-section {
+  display: flex;
+flex-wrap: wrap;
+background-color: #aea9a0; /* Match the background color */
+padding: 20px;
+color: white;
+}
+
+.book-button3 {
+  background-color: #2c1a27;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-transform: uppercase;
+  width: 75%;
+  font-family: Raleway;
+  line-height: 25px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.book-button3:hover {
+  background-color: #8fb493;
+  color: #2c1a27;
+}
