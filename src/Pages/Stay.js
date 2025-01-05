@@ -8,6 +8,19 @@ import image3 from "../Images/stay_images/glamping.jpg";
 import image4 from "../Images/stay_images/cabins.jpg";
 import map from "../Images/stay_images/map2.png";
 import './Stay.css';
+import house1 from "../Images/stay_images/treehouse1.jpg";
+import house2 from "../Images/stay_images/treehouse2.jpg";
+import house3 from "../Images/stay_images/treehouse3.jpg";
+import house4 from "../Images/stay_images/campfall3.jpg";
+import house5 from "../Images/stay_images/campfall1.jpg";
+import house6 from "../Images/stay_images/campfall2.jpg";
+import house7 from "../Images/stay_images/topcamp1.jpg";
+import house8 from "../Images/stay_images/topcamp2.jpg";
+import house9 from "../Images/stay_images/topcamp3.jpg";
+import house10 from "../Images/stay_images/cabana1.jpg";
+import house11 from "../Images/stay_images/cabana2.jpg";
+import house12 from "../Images/stay_images/cabana3.jpg";
+
 
 export default function Stay() {
   const settings = {
@@ -41,15 +54,15 @@ export default function Stay() {
             <p>Camping</p>
           </div>
           <div className="option">
-            <img src={image2} alt="Caravanning" />
-            <p>Caravanning</p>
+            <img src={house2} alt="Tree House" />
+            <p>Tree Houses</p>
           </div>
           <div className="option">
             <img src={image3} alt="Glamping" />
             <p>Glamping</p>
           </div>
           <div className="option">
-            <img src={image4} alt="Cabins" />
+            <img src={house11} alt="Cabins" />
             <p>Cabins</p>
           </div>
         </div>
@@ -67,27 +80,27 @@ export default function Stay() {
           <div className="stay-image">
           <Slider {...settings}>
             <div>
-              <img src={image4} alt="Camping Scene 1" />
+              <img src={house4} alt="Camping Scene 1" />
             </div>
             <div>
-              <img src={image2} alt="Camping Scene 2" />
+              <img src={house5} alt="Camping Scene 2" />
             </div>
             <div>
-              <img src={image3} alt="Camping Scene 3" />
+              <img src={house6} alt="Camping Scene 3" />
             </div>
           </Slider>
           </div>
           <div className="stay-info">
-            <h2>UNPLUGGED</h2>
-            <h3>Camping & Caravan Sites</h3>
+            <h2>CAMPING PACKAGES 01 </h2>
+            <h3>Next to Kuda Ela</h3>
             <p>
-              Large shady sites with room to spread out & take in the natural surrounds. Perfect for tents or off-grid campers (Unpowered).
+            You can enjoy beauty of Kuda Ela canal and grasslands & 4 KM hike from entrance(Unpowered).
             </p>
             <h4>Facilities:</h4>
             <div className='facilities'>
               <ul>
-                <li>Camp Kitchen & Gathering Space</li>
-                <li>Well-appointed amenities</li>
+                <li>Water, Lights & Sanitary Applications</li>
+                <li>Dinner , Breakfast & Morning Tea</li>
                 <li>BBQs</li>
                 <li>Perfect for tents or off-grid campers (Unpowered).</li>
               </ul>
@@ -102,26 +115,26 @@ export default function Stay() {
           <div className="stay-image">
           <Slider {...settings}>
             <div>
-              <img src={image4} alt="Camping Scene 1" />
+              <img src={house7} alt="Camping Scene 1" />
             </div>
             <div>
-              <img src={image2} alt="Camping Scene 2" />
+              <img src={house8} alt="Camping Scene 2" />
             </div>
             <div>
-              <img src={image3} alt="Camping Scene 3" />
+              <img src={house9} alt="Camping Scene 3" />
             </div>
           </Slider>
           </div>
           <div className="stay-info" style={{color:"rgb(87, 70, 46)"}}>
-            <h2>UNPLUGGED</h2>
-            <h3>Camping & Caravan Sites</h3>
+            <h2>CAMPING PACKAGE 02</h2>
+            <h3>On Walas Kanda top viewpoint</h3>
             <p>
-              Large shady sites with room to spread out & take in the natural surrounds. Perfect for tents or off-grid campers (Unpowered).
+            Breathtaking view of eastern valley sri lanka & 8 KM Hike from entrance(Unpowered).
             </p>
             <h4>Facilities:</h4>
             <div className='facilities'>
               <ul>
-                <li>Camp Kitchen & Gathering Space</li>
+                <li> Water, Lights & Sanitary Applications</li>
                 <li>Well-appointed amenities</li>
                 <li>BBQs</li>
                 <li>Perfect for tents or off-grid campers (Unpowered).</li>
@@ -137,29 +150,31 @@ export default function Stay() {
           <div className="stay-image">
           <Slider {...settings}>
             <div>
-              <img src={image4} alt="Camping Scene 1" />
+              <img src={house10} alt="Camping Scene 1" />
             </div>
             <div>
-              <img src={image2} alt="Camping Scene 2" />
+              <img src={house11} alt="Camping Scene 2" />
             </div>
             <div>
-              <img src={image3} alt="Camping Scene 3" />
+              <img src={house12} alt="Camping Scene 3" />
             </div>
           </Slider>
           </div>
           <div className="stay-info">
-            <h2>UNPLUGGED</h2>
-            <h3>Camping & Caravan Sites</h3>
+            <h2>JUNGLE CABANA</h2>
+            <h3>Family    25500 Per Day<br></br>
+            Couple    12500 Per Day</h3>
             <p>
-              Large shady sites with room to spread out & take in the natural surrounds. Perfect for tents or off-grid campers (Unpowered).
+              for family
+              (Large shady sites with room to spread out & take in the natural surrounds. Perfect for tents or off-grid campers) (Unpowered).
             </p>
             <h4>Facilities:</h4>
             <div className='facilities'>
               <ul>
-                <li>Camp Kitchen & Gathering Space</li>
-                <li>Well-appointed amenities</li>
-                <li>BBQs</li>
-                <li>Perfect for tents or off-grid campers (Unpowered).</li>
+                <li>Private Kitchen and Bedrooms</li>
+                <li>Washroom with heaters</li>
+                <li>Water, Lights & Sanitary Applications(Electricity is provided)</li>
+                <li>Dinner , Breakfast & Morning Tea.</li>
               </ul>
             </div>
             <button className="book-button">BOOK YOUR STAY!</button>
@@ -172,29 +187,30 @@ export default function Stay() {
           <div className="stay-image">
           <Slider {...settings}>
             <div>
-              <img src={image4} alt="Camping Scene 1" />
+              <img src={house1} alt="Camping Scene 1" />
             </div>
             <div>
-              <img src={image2} alt="Camping Scene 2" />
+              <img src={house2} alt="Camping Scene 2" />
             </div>
             <div>
-              <img src={image3} alt="Camping Scene 3" />
+              <img src={house3} alt="Camping Scene 3" />
             </div>
           </Slider>
           </div>
           <div className="stay-info">
-            <h2>UNPLUGGED</h2>
-            <h3>Camping & Caravan Sites</h3>
+            <h2>WANA NIWAHANA</h2>
+            <h3>Family Room  - Rs. 7500 Per Night<br></br>
+            Double Room  - Rs. 5000 Per Night</h3>
             <p>
               Large shady sites with room to spread out & take in the natural surrounds. Perfect for tents or off-grid campers (Unpowered).
             </p>
             <h4>Facilities:</h4>
             <div className='facilities'>
               <ul>
-                <li>Camp Kitchen & Gathering Space</li>
-                <li>Well-appointed amenities</li>
+                <li>Attached Bathrooms with heaters</li>
+                <li>Electricity</li>
                 <li>BBQs</li>
-                <li>Perfect for tents or off-grid campers (Unpowered).</li>
+                <li>Comfortable Beds</li>
               </ul>
             </div>
             <button className="book-button3">BOOK YOUR STAY!</button>
