@@ -33,7 +33,7 @@ export default function Home() {
             <span></span>WATCH MORE
           </button>
           <button>
-            <span></span>SUBSCRIBE
+            <span></span>BOOK NOW
           </button>
         </div>
       </div>

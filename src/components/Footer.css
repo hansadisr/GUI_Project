@@ -1,40 +1,105 @@
-.footer {
-    background-color: #e0e0d8;
-    color: black;
-    padding: 50px 0;
-    text-align: center;
-  }
-  
-  .footer-content h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .footer-content p {
-    font-size: 14px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
-  
-  .socials {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-  }
-  
-  .socials li {
-    margin: 0 10px;
-  }
-  
-  .socials a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  .footer-bottom {
-    margin-top: 20px;
-    font-size: 14px;
-  }
-  
+footer {
+  background-color: #f2f2f2;
+  color: #5d6957;
+  padding: 20px 10px;
+  font-size: 14px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-logo{
+  margin-bottom: 15px;
+}
+
+.footer-left p{
+  margin-bottom: 8px;
+  font-family: Raleway;
+  font-size: 15px;
+}
+
+.footer-left{
+  max-width: 40%;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.footer-left img{
+  max-width: 60%;
+}
+
+.footer-center h3,
+.footer-right h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #073231;
+}
+
+.footer-center ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-center ul li {
+  margin: 2px 2px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; 
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+.footer-center ul li a {
+  color: #5d6957;
+  text-decoration: none;
+}
+
+.footer-center ul li a:hover {
+  color: #ea8316;
+}
+
+.footer-right img {
+  max-width: 100px;
+  margin: 10px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.social-icons a {
+  color: #5d6957;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #073231; 
+}

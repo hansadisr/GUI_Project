@@ -48,12 +48,13 @@
     padding: 20px;
     gap: 20px;
     height: 400px;
+    background-color:#aea9a0;
   }
   
   .image-column {
-    flex: 1;
     
-    max-width: 35%;
+    
+    max-width: 45%;
     align-items: flex-end;
     justify-content: center;
     vertical-align: middle;
@@ -61,17 +62,19 @@
     
   }
   .image-column img {
-    width: 100%; /* Make the image responsive */
+    width: 80%; /* Make the image responsive */
     height: 40vh;
     border-radius: 10px;
     object-fit: cover;
+    justify-items: center;
+    justify-self: center;
      
   }
   
   
   
   .text-column {
-    flex: 2; /* Make the text column smaller */
+     /* Make the text column smaller */
     text-align: left;
     display: flex; /* Add flexbox for inner alignment */
     flex-direction: column; /* Allow vertical alignment */
