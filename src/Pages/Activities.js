@@ -15,7 +15,7 @@ export default function Activities() {
         <section className="top-img">
         <div className="first_text">
           
-            adventures
+            BOOK YOUR OUTDOOR ADVENTURE
           
         </div>
         </section>
@@ -63,13 +63,14 @@ export default function Activities() {
             </div>
         </div>
         <div className="text-column">
-          <h2>Hicking</h2>
+          <h2>Hiking</h2>
           <p>
-          Toast a marshmallow. Enjoy a cheese platter on your deck. Sleep late or wake early
-          for a surf and a sunrise over the water.
+          Explore scenic trails and enjoy breathtaking views as you trek through nature. 
+          Perfect for adventure seekers and nature enthusiasts alike.
           </p>
           <p>
-          Whatever your style, we’ve got everything for foodies, for nature lovers, adventure seekers, and explorers.
+          Embark on an unforgettable journey through two stunning mountains, guided by our experienced professionals. They ensure your safety while sharing fascinating insights 
+          about the trails and surrounding nature, making your adventure both enjoyable and informative.
           </p>
         </div>
       </div>

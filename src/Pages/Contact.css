@@ -1,0 +1,131 @@
+.contact-container{
+    font-family: Arial, sans-serif;
+    color: #3a3a3a;
+}
+.c_first_text{
+  color:  #3a3a3a;
+  font-size: xx-large;
+
+}
+.c_top-img{
+    background-image: url('../Images/map.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Booking Page Container */
+.contact-container {
+    padding: 5px;
+    display: flex;
+    
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Left Section */
+  .left-section {
+    flex: 1;
+    padding: 50px;
+    background: #e3ece0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .left-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .instant-book-button {
+    padding: 15px 30px;
+    background-color: #b7ad9a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  .instant-book-button:hover {
+    background-color: #9f9482;
+  }
+  
+  .description {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .booking-note {
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Right Section */
+  .right-section {
+    flex: 1;
+    padding: 50px;
+    background: #aab7a4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .right-section h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+  
+  textarea.form-input {
+    resize: none;
+  }
+  
+  .submit-button {
+    padding: 15px 30px;
+    background-color: #6d8251;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .submit-button:hover {
+    background-color: #5c6e42;
+  }
+  

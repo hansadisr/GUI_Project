@@ -2,6 +2,9 @@
     font-family: Arial, sans-serif;
     color: #3a3a3a;
 }
+.first_text{
+  color: #aea9a0;
+}
 .top-img{
     background-image: url('../Images/about_images/rafting1.jpg');
     background-size: cover;
@@ -47,7 +50,7 @@
     justify-content: center;
     padding: 20px;
     gap: 20px;
-    height: 400px;
+    height: 350px;
     background-color:#aea9a0;
   }
   
@@ -62,7 +65,7 @@
     
   }
   .image-column img {
-    width: 80%; /* Make the image responsive */
+    width: 60vh; /* Make the image responsive */
     height: 40vh;
     border-radius: 10px;
     object-fit: cover;
@@ -78,19 +81,40 @@
     text-align: left;
     display: flex; /* Add flexbox for inner alignment */
     flex-direction: column; /* Allow vertical alignment */
-    justify-content: flex-end; /* Push content to the bottom */
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    margin: 50px;
   }
   
   .text-column h2 {
     font-size: 24px;
-    color: #2d5b2e;
-    padding: 5px;
+    color: black;
+    padding: 10px;
+    
+    
   }
   
   .text-column p {
     font-size: 16px;
-    line-height: 1.5;
-    color: #5a5a5a;
+    line-height: 1.6;
+    color: black;
     padding: 5px;
+    margin:5px;
+    
+  }
+  
+  @media (max-width: 768px) {
+    .two-column-container {
+      flex-direction: column;
+    }
+    .image-column, .text-column {
+      max-width: 100%;
+      text-align: center; /* Center-align text for better appearance */
+    }
+    .image-column img {
+      width: 80%; 
+      align-items: flex-start;
+    }
   }
   
