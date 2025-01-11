@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import { useNavigate } from "react-router-dom";
 import Navbar from '../components/Navbar'
 import firstImage from "../Images/image01.jpg";
 import secondImage from "../Images/image_2.jpg";
@@ -13,7 +14,15 @@ import image4 from "../Images/nature.jpg";
 
 
 
+
 export default function Home() {
+   const navigate = useNavigate();
+    
+      const handleBookingClick = () => {
+        navigate("/book");
+      };
+
+
   return (
     <div>
     <div className="container">
@@ -29,17 +38,19 @@ export default function Home() {
         <h1>BEST CAMPING SITES</h1>
         <p>Plan your vacation with us.</p>
         <div>
+          <a href="#columns">
           <button>
             <span></span>WATCH MORE
           </button>
-          <button>
+          </a>
+          <button  onClick={handleBookingClick}>
             <span></span>BOOK NOW
           </button>
         </div>
       </div>
     </div>
 
-    <div className="two-columns">
+    <div id='columns' className="two-columns">
   {/* Left column with text */}
   <div className="left-column">
     <h2>Who We Are</h2>

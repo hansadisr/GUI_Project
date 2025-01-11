@@ -1,7 +1,9 @@
 import React from 'react'
+import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 import image1 from "../Images/image_2.jpg";
 import image2 from "../Images/stay_images/carvanning.jpeg";
 import image3 from "../Images/stay_images/glamping.jpg";
@@ -23,6 +25,14 @@ import house12 from "../Images/stay_images/cabana3.jpg";
 
 
 export default function Stay() {
+   
+    const navigate = useNavigate();
+  
+    const handleBookingClick = () => {
+      navigate("/book");
+    };
+  
+
   const settings = {
     dots: true, // Show navigation dots
     infinite: true, // Loop the images
@@ -33,6 +43,7 @@ export default function Stay() {
     autoplaySpeed: 3000, // Time between auto slides (ms)
     arrows: true, // Add left and right arrows
   };
+  
 
 
 
@@ -41,7 +52,7 @@ export default function Stay() {
       <section className="map">
         <div className="map-content">
           <a href="#map-section">
-            <button className="park-map-button">PARK MAP</button>
+            <button  className="park-map-button">PARK MAP</button>
           </a>
         </div>
       </section>
@@ -105,7 +116,8 @@ export default function Stay() {
                 <li>Perfect for tents or off-grid campers (Unpowered).</li>
               </ul>
             </div>
-            <button className="book-button">BOOK YOUR STAY!</button>
+            <button  className="book-button"
+            onClick={handleBookingClick}>BOOK YOUR STAY!</button>
           </div>
         </div>
       </section>
@@ -140,7 +152,8 @@ export default function Stay() {
                 <li>Perfect for tents or off-grid campers (Unpowered).</li>
               </ul>
             </div>
-            <button className="book-button2">BOOK YOUR STAY!</button>
+            <button className="book-button2"
+            onClick={handleBookingClick}>BOOK YOUR STAY!</button>
           </div>
         </div>
       </section>
@@ -177,7 +190,8 @@ export default function Stay() {
                 <li>Dinner , Breakfast & Morning Tea.</li>
               </ul>
             </div>
-            <button className="book-button">BOOK YOUR STAY!</button>
+            <button className="book-button"
+            onClick={handleBookingClick}>BOOK YOUR STAY!</button>
           </div>
         </div>
       </section>
@@ -213,7 +227,8 @@ export default function Stay() {
                 <li>Comfortable Beds</li>
               </ul>
             </div>
-            <button className="book-button3">BOOK YOUR STAY!</button>
+            <button className="book-button3"
+            onClick={handleBookingClick}>BOOK YOUR STAY!</button>
           </div>
         </div>
       </section>
@@ -222,4 +237,5 @@ export default function Stay() {
 
     
   )
+
 }

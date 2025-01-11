@@ -1,0 +1,158 @@
+.booking-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-family:Raleway;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4a4e57;
+    font-weight:700;
+  }
+  
+  /* Form Styles */
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* margin-bottom: 20px; */
+  }
+  
+  .form-group {
+    flex: 1 1 calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input[type="date"],
+  input[type="input"],
+  input[type="tel"],
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  /* Counter Styles */
+  .counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .counter button {
+    width: 30px;
+    height: 30px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .counter button:hover {
+    background: #0056b3;
+  }
+  
+  .counter span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  .counter p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .guests-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .guests-container,
+  .night-container {
+    flex: 1 1 calc(50% - 20px);
+    padding: 0;
+    /* background-color: #f5f5f5; */
+
+  }
+  
+  .counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .counter button {
+    width: 40px;
+    height: 40px;
+    background-color: #78927e; /* Change button color */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .counter button:hover {
+    background-color: #218838; /* Darker shade for hover */
+  }
+  
+  .number-display {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .guests-container,
+    .night-container {
+      flex: 1 1 100%;
+    }
+  }
+  
+  .counter-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .book-details p{
+    margin-bottom: 5px;
+}
+.book-details p strong{
+    font-Family:"montserrat";
+    letter-Spacing:"2px";
+    font-Weight:"400";
+    font-Size:"21px"
+}
