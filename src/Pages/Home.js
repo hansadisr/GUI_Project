@@ -19,7 +19,7 @@ export default function Home() {
    const navigate = useNavigate();
     
       const handleBookingClick = () => {
-        navigate("/book");
+        navigate("/Stay");
       };
 
 

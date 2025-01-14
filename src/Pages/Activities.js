@@ -24,7 +24,7 @@ export default function Activities() {
           <h2 className='first-topic'>what are you waiting?</h2>
           <h4 className='second-topic'>Come join with us</h4>
           <p className='first-para'>
-          Epic Ventures Ceylon was born out of a deep passion for adventure and a profound love for Sri Lanka’s breathtaking landscapes. What started at 2005 as a small group of outdoor 
+         Jungle Odyssey Ceylon was born out of a deep passion for adventure and a profound love for Sri Lanka’s breathtaking landscapes. What started at 2005 as a small group of outdoor 
             enthusiasts dreaming of exploring the wild has now grown into a 
             trusted name in eco-tourism and adventure travel after 18 years of services.
         
@@ -33,106 +33,26 @@ export default function Activities() {
         </section>
 
       
-          
-
-      <div className="two-column-container">
-        <div className="image-column">
-        
-           <div>
-              <img src={picture1} alt="Camping Scene 1" />
-            </div>
-            
+        <div className="activities-grid">
+        {[
+        { img: picture1, title: "Enjoy The Experience", desc: "Toast a marshmallow. Enjoy a cheese platter on your deck. Sleep late or wake early for a surf and a sunrise over the water." },
+        { img: picture6, title: "Hiking", desc: "Explore scenic trails and enjoy breathtaking views as you trek through nature. Perfect for adventure seekers and nature enthusiasts alike." },
+        { img: picture3, title: "Water Rafting", desc: "Experience the thrill of navigating wild waters with our expert-guided rafting adventures, designed for both beginners and pros." },
+        { img: picture4, title: "Waterfall Abseiling", desc: "Challenge yourself by descending breathtaking waterfalls under the guidance of trained professionals for a unique thrill." },
+        { img: picture5, title: "Bird Watching", desc: "Immerse yourself in nature with our bird-watching tours, spotting diverse species in their natural habitats." }
+      ].map((activity, index) => (
+        <div key={index} className="two-column-container">
+          <div className="image-column">
+            <img src={activity.img} alt={`${activity.title} Scene`} />
+          </div>
+          <div className="text-column">
+            <h2>{activity.title}</h2>
+            <p>{activity.desc}</p>
+          </div>
         </div>
-        <div className="text-column">
-          <h2>Enjoy The Experience</h2>
-          <p>
-          Toast a marshmallow. Enjoy a cheese platter on your deck. Sleep late or wake early
-          for a surf and a sunrise over the water.
-          </p>
-          <p>
-          Whatever your style, we’ve got everything for foodies, for nature lovers, adventure seekers, and explorers.
-          </p>
-        </div>
+      ))}
       </div>
-
-      <div className="two-column-container">
-        <div className="image-column">
-      
-            <div>
-              <img src={picture6} alt="Camping Scene 1" />
-            </div>
-        </div>
-        <div className="text-column">
-          <h2>Hiking</h2>
-          <p>
-          Explore scenic trails and enjoy breathtaking views as you trek through nature. 
-          Perfect for adventure seekers and nature enthusiasts alike.
-          </p>
-          <p>
-          Embark on an unforgettable journey through two stunning mountains, guided by our experienced professionals. They ensure your safety while sharing fascinating insights 
-          about the trails and surrounding nature, making your adventure both enjoyable and informative.
-          </p>
-        </div>
-      </div>
-
-      <div className="two-column-container">
-        <div className="image-column">
-  
-            <div>
-              <img src={picture3} alt="Camping Scene 1" />
-            </div>
-        </div>
-        <div className="text-column">
-          <h2>Water Rafting</h2>
-          <p>
-          Toast a marshmallow. Enjoy a cheese platter on your deck. Sleep late or wake early
-          for a surf and a sunrise over the water.
-          </p>
-          <p>
-          Whatever your style, we’ve got everything for foodies, for nature lovers, adventure seekers, and explorers.
-          </p>
-        </div>
-      </div>
-
-      <div className="two-column-container">
-        <div className="image-column">
-        
-            <div>
-              <img src={picture4} alt="Camping Scene 1" />
-            </div>
-        </div>
-        <div className="text-column">
-          <h2>Waterfall Abseiling</h2>
-          <p>
-          Toast a marshmallow. Enjoy a cheese platter on your deck. Sleep late or wake early
-          for a surf and a sunrise over the water.
-          </p>
-          <p>
-          Whatever your style, we’ve got everything for foodies, for nature lovers, adventure seekers, and explorers.
-          </p>
-        </div>
-      </div>
-
-      <div className="two-column-container">
-        <div className="image-column">
-        
-            <div>
-              <img src={picture5} alt="Camping Scene 1" />
-            </div>
-           
-        </div>
-        <div className="text-column">
-          <h2>Bird Watching</h2>
-          <p>
-          Toast a marshmallow. Enjoy a cheese platter on your deck. Sleep late or wake early
-          for a surf and a sunrise over the water.
-          </p>
-          <p>
-          Whatever your style, we’ve got everything for foodies, for nature lovers, adventure seekers, and explorers.
-          </p>
-        </div>
-      </div>
-      
     </div>
-  )
+  );
 }
+      

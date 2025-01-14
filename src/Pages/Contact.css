@@ -1,131 +1,300 @@
-.contact-container{
-    font-family: Arial, sans-serif;
-    color: #3a3a3a;
-}
-.c_first_text{
-  color:  #3a3a3a;
-  font-size: xx-large;
-
-}
-.c_top-img{
-    background-image: url('../Images/map.jpeg');
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.contact-page {
+  min-height: 100vh;
+  background: #f8f9fa;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 30px;
 }
 
-/* Booking Page Container */
-.contact-container {
-    padding: 5px;
-    display: flex;
-    
-    font-family: Arial, sans-serif;
+.contact-top {
+  background-image: url("../Images/image_5.jpg");
+  background-size: cover;
+   background-position: center;
+  /* background: linear-gradient(135deg, #55685d,  #728b75); */
+  /* background-size: 300% 300%; */
+  /* animation: gradient 15s ease infinite; */
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.top-content {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.top-title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.top-subtitle {
+  font-size: 1.5rem;
+  opacity: 0.9;
+  margin-bottom: 3rem;
+}
+
+.quick-contact {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.contact-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.contact-card a{
+  color: #f8f9fa;
+}
+
+.contact-card:hover {
+  transform: translateY(-10px);
+}
+
+.contact-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Booking Section */
+.booking-section {
+  max-width: 1400px;
+  margin: -100px auto 0;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 3rem;
+}
+
+.booking-info {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.instant-book {
+  background: linear-gradient(45deg, #8fb493, #063231);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin: 2rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.feature {
+  background: #eaeceb;
+  padding: 1.5rem;
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.feature p{
+  
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Form Styles */
+.contact-form-container {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.input-container input,
+.input-container select,
+.input-container textarea {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  background: #eaeceb;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.input-container label {
+  top: -12px;
+  position: absolute;
+  left: 1rem;
+  transform: translateY(-50%);
+  color: #666;
+  /* transition: all 0.3s ease; */
+  pointer-events: none;
+  font-size: 0.8rem;
+}
+
+.input-container.focused label,
+.input-container input:not(:placeholder-shown) + label {
+  top: -12px;
+  left: 0;
+  font-size: 0.8rem;
+  color: #55685d;
+}
+
+.input-border {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(45deg, #2193b0, #6dd5ed);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.input-container.focused .input-border {
+  width: 100%;
+}
+
+.date-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.message-container textarea {
+  height: 120px;
+  resize: none;
+}
+
+.message-container label {
+  top: 1rem;
+  transform: none;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(45deg, #8fb493, #063231);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn-shine {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  animation: shine 3s infinite;
+}
+
+@keyframes shine {
+  0% { left: -100%; }
+  20% { left: 100%; }
+  100% { left: 100%; }
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .booking-section {
+    grid-template-columns: 1fr;
   }
   
-  /* Left Section */
-  .left-section {
-    flex: 1;
-    padding: 50px;
-    background: #e3ece0;
-    display: flex;
+  .quick-contact {
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
   }
   
-  .left-section h2 {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .instant-book-button {
-    padding: 15px 30px;
-    background-color: #b7ad9a;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 20px;
-    font-size: 1rem;
-  }
-  
-  .instant-book-button:hover {
-    background-color: #9f9482;
-  }
-  
-  .description {
-    font-size: 1rem;
-    margin-bottom: 10px;
-    color: #555;
-  }
-  
-  .booking-note {
-    font-weight: bold;
-    color: #444;
-    margin-bottom: 10px;
-  }
-  
-  .contact-info {
-    font-size: 1rem;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  /* Right Section */
-  .right-section {
-    flex: 1;
-    padding: 50px;
-    background: #aab7a4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .right-section h3 {
-    font-size: 1.5rem;
-    color: #fff;
-    margin-bottom: 20px;
-  }
-  
-  .booking-form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .form-group {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .form-input {
+  .contact-card {
     width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    margin-top: 5px;
-    font-size: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-title {
+    font-size: 3rem;
   }
   
-  textarea.form-input {
-    resize: none;
+  .form-grid,
+  .date-container {
+    grid-template-columns: 1fr;
   }
   
-  .submit-button {
-    padding: 15px 30px;
-    background-color: #6d8251;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
+  .booking-info,
+  .contact-form-container {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-title {
+    font-size: 2rem;
   }
   
-  .submit-button:hover {
-    background-color: #5c6e42;
+  .top-subtitle {
+    font-size: 1.2rem;
   }
-  
+}

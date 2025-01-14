@@ -1,120 +1,107 @@
-.do-container{
-    font-family: Arial, sans-serif;
-    color: #3a3a3a;
+.do-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c2c2c;
+  background-color: #f5f5f5;
+ /* padding: 20px;*/
 }
-.first_text{
-  color: #aea9a0;
-}
-.top-img{
-    background-image: url('../Images/about_images/rafting1.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.do-content{
-    font-weight: 100;
-    padding: 40px;
-}
-.first-topic{
-    padding: 10px;
-    align-items: center;
-    text-align: center;
-    font-weight: bold;
-    color: #b6b2aa;
 
+.first_text {
+  
+  color: #ffffff;
+  /*background-color: rgba(0, 0, 0, 0.6);*/
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: "montserrat";
+  
+  letter-spacing: "2px";
+  font-weight: "400";
+  font-size: "60px";
 }
-.second-topic{
-    padding: 10px;
-    align-items: center;
-    text-align: center;
-    font-weight: bold;
-    color: #b6b2aa;
 
+.top-img {
+  background-image: url('../Images/about_images/rafting1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.first-para:first-of-type{
-    padding: 10px;
-    /*text-align: center;*/
-    text-align: justify;
-    row-gap: 2px;
-    margin: 0 auto;
-    max-width: 1200px;
-    line-height: 1.6;
-} 
+
+.do-content {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.first-topic {
+  font-size: 30px;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.second-topic {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.first-para {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
 .two-column-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    gap: 20px;
-    height: 350px;
-    background-color:#aea9a0;
-  }
+  display: flex;
   
-  .image-column {
-    
-    
-    max-width: 45%;
-    align-items: flex-end;
-    justify-content: center;
-    vertical-align: middle;
-    height: 100%;
-    
-  }
-  .image-column img {
-    width: 60vh; /* Make the image responsive */
-    height: 40vh;
-    border-radius: 10px;
-    object-fit: cover;
-    justify-items: center;
-    justify-self: center;
-     
-  }
+  align-items: center;
+
+  justify-content:space-between;
+  background: linear-gradient(to left,#91aa94,#bfccc2,white ) ;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  gap: 20px;
   
+}
+
+.image-column {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.image-column img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   
-  
-  .text-column {
-     /* Make the text column smaller */
-    text-align: left;
-    display: flex; /* Add flexbox for inner alignment */
-    flex-direction: column; /* Allow vertical alignment */
-    justify-content: flex-start;
-    align-items: flex-start;
-    
-    margin: 50px;
-  }
-  
-  .text-column h2 {
-    font-size: 24px;
-    color: black;
-    padding: 10px;
-    
-    
-  }
-  
-  .text-column p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: black;
-    padding: 5px;
-    margin:5px;
-    
-  }
-  
-  @media (max-width: 768px) {
-    .two-column-container {
-      flex-direction: column;
-    }
-    .image-column, .text-column {
-      max-width: 100%;
-      text-align: center; /* Center-align text for better appearance */
-    }
-    .image-column img {
-      width: 80%; 
-      align-items: flex-start;
-    }
-  }
-  
+}
+
+.text-column {
+  flex: 2;
+  text-align: left;
+}
+
+.text-column h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.text-column p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #666;
+}
+
+

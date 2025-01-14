@@ -57,7 +57,24 @@
     text-align: center;
     z-index: 1;
   }
+  .content h1{
+    
+    font-family: "montserrat";
+    padding: 10px;
+    letter-spacing: "2px";
+    /*font-weight: "400";*/
+    font-size: "60px"; 
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  }
   
+  .content p{
+    font-size: 1.5rem;
+    opacity: 0.9;
+    margin-bottom: 3rem;
+  }
   @keyframes slide {
     0%{
       transform: translateX(0);
