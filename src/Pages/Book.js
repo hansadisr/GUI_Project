@@ -63,7 +63,7 @@ const validBookings = bookings.filter(
   return (
     <div className="booking-container">
     {/* Booking Details Section */}
-    <h1
+    {/* <h1
         style={{
           textAlign: "center",
           margin: "20px 0px",
@@ -115,7 +115,7 @@ const validBookings = bookings.filter(
             <p><strong>Location:</strong> {booking.location_number}</p>
           </div>
         ))}
-      </div>
+      </div>  */}
       <h1 className="title">Book Now</h1>
       <form className="form" onSubmit={handleSubmit}>
         <div className="form-group">

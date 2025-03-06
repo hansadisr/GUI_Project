@@ -66,7 +66,7 @@ export default function About() {
       <section id='activities-section'>
         <div className='activities'>
           <div className='list'>
-            <h4>Our faclities</h4>
+            <h4>Our Faclities</h4>
             <ul>
                <li>Spacious, well-maintained campsites</li>
                <li>Comfortable tents with bedding</li>
@@ -80,7 +80,7 @@ export default function About() {
                <li>Wildlife-safe camping zones</li>
             
             </ul>
-            <h4>Our accommodation</h4>
+            <h4>Our Accommodation</h4>
             <ul>
               <li>Glamping for couples & families</li>
               <li>Modern & stylish cabins </li>

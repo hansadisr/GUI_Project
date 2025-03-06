@@ -102,8 +102,8 @@ export default function Stay() {
           </Slider>
           </div>
           <div className="stay-info">
-            <h2>CAMPING PACKAGES 01 </h2>
-            <h3>Next to Kuda Ela</h3>
+            <h2>WATER ESCAPE <br></br>(CAMPING PACKAGES 01) </h2>
+            <h3> Kuda Ella Riverside Camp, Beli Oya Lakeside Camp, Heli Lakeside Camp</h3>
             <p>
             You can enjoy beauty of Kuda Ela canal and grasslands & 4 KM hike from entrance(Unpowered).
             </p>
@@ -138,8 +138,8 @@ export default function Stay() {
           </Slider>
           </div>
           <div className="stay-info" style={{color:"rgb(87, 70, 46)"}}>
-            <h2>CAMPING PACKAGE 02</h2>
-            <h3>On Walas Kanda top viewpoint</h3>
+            <h2>SKYPEAK SUMMIt CAMP <br></br> (CAMPING PACKAGES 02)</h2>
+            <h3>Walas Kanda Summit Camp, Nela Rock Summit Camp</h3>
             <p>
             Breathtaking view of eastern valley sri lanka & 8 KM Hike from entrance(Unpowered).
             </p>
