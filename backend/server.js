@@ -1,11 +1,11 @@
-const express = require("express");
-const mysql = require('mysql');
-const cors = require('cors');
+const express = require("express"); //import expresss from 'express';
+const mysql = require('mysql');// connect the mysql
+const cors = require('cors'); // access to the anyone to the update
 
 const app = express();
 app.use(cors());
 
-app.use(express.json());
+app.use(express.json()); 
 
 const db = mysql.createConnection({
     host: "localhost",
@@ -13,6 +13,8 @@ const db = mysql.createConnection({
     password: "",
     database: "camping"
 });
+
+// get the access to the bookong page thruogh the chrome using get method
 app.post('/booking', (req, res) => {
     const sql = "INSERT INTO booking (name,nic,phone_number,arrival_date,departure_date,location_number,number_of_nights,number_of_members) VALUES (?)";
     const values = [
@@ -46,4 +48,4 @@ app.get('/booking', (req, res) => {
 });
 app.listen(8081, () => {
     console.log("Server is running on port 8081");
-});
+});  // arrow function- javascript function (() =>{}) 

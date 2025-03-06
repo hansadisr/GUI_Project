@@ -103,13 +103,22 @@
 /* Left column for text */
 .left-column {
   flex: 1; /* Takes up half the space */
-  padding: 10px;
+  padding: 50px;
+}
+
+.left-column h2{
+
+  font-size: 30px;
+  margin: 10px;
 }
 
 .left-column p {
   font-size: 18px;
   line-height: 1.6;
   color: #333;
+  padding: 8;
+  font-family: italic;
+  
 }
 
 /* Right column for images */

@@ -51,12 +51,13 @@ export default function About() {
 
         <div className='story'>
           <h2 className='head1'>OUR STORY</h2>
-          <p>Epic Ventures Ceylon was born out of a deep passion for adventure and a profound love for Sri Lanka’s breathtaking landscapes. What started at 2005 as a small group of outdoor 
-            enthusiasts dreaming of exploring the wild has now grown into a 
-            trusted name in eco-tourism and adventure travel after 18 years of services. Within those years, we have served around 32,000 customers and gave them lifetime experiences.
-
-          Our journey began with a simple mission: to share the beauty of Sri Lanka’s natural wonders while promoting sustainable 
-          tourism practices. From humble beginnings organizing small hiking trips, we’ve expanded to offer a wide range of adventure and stay packages that cater to thrill-seekers, nature lovers, and everyone in between. Today, we continue to innovate and evolve, creating experiences that not only leave lasting memories but also contribute to preserving the environment for future generations.
+          <p>
+          Jungle Odyssey was born from a deep passion for adventure and an enduring love for the great outdoors. What started as a small 
+          initiative to explore nature’s hidden gems has now grown into a trusted name in camping and adventure travel. Over the years, 
+          we have welcomed countless explorers, offering them unforgettable experiences in breathtaking landscapes. Our journey began with a
+           simple mission: to provide an escape into nature while promoting sustainable and responsible tourism. From humble beginnings with small 
+           camping trips, we’ve expanded to offer diverse adventure and stay packages for thrill-seekers, nature lovers, and families alike. 
+           Today, we continue to evolve, curating immersive  experiences that not only create lifelong memories but also preserve the beauty of nature for generations to come.
          </p>
 
         </div>
@@ -67,17 +68,24 @@ export default function About() {
           <div className='list'>
             <h4>Our faclities</h4>
             <ul>
-               <li>cgvhbj</li>
-               <li>fybhj</li>
-               <li>cxcjnjk</li>
-               <li>vghbj</li>
+               <li>Spacious, well-maintained campsites</li>
+               <li>Comfortable tents with bedding</li>
+               <li>Campfire and BBQ areas</li>
+               <li>Guided hiking and trekking trails</li>
+               <li>Kayaking and river adventures</li>
+               <li>Night safaris and wildlife spotting</li>
+               <li>Water Abseiling</li>
+               <li>Trained guides and emergency assistance</li>
+               <li>GPS tracking for adventure activities</li>
+               <li>Wildlife-safe camping zones</li>
             
             </ul>
             <h4>Our accommodation</h4>
             <ul>
-              <li>gvhbjnjk</li>
-              <li>fcvhj </li>
-              <li>ctvhh</li>
+              <li>Glamping for couples & families</li>
+              <li>Modern & stylish cabins </li>
+              <li>Large powered & unpowered sites for camping & caravanning</li>
+              <li>Ensuite sites</li>
             </ul>
           </div>
           <div className='imageoption'>
@@ -102,15 +110,10 @@ export default function About() {
           <h2 className='head1'>Sustainability and Eco Friendliness
           </h2>
           <p>
-          At Epic Venture Ceylon, sustainability and respect for nature are at the core of everything we do. Our programs are designed 
-          to minimize environmental impact while fostering a deep connection with the natural world. From eco-friendly accommodations and 
-          waste reduction initiatives to activities that educate participants about biodiversity conservation, every aspect of our operations prioritizes harmony 
-          with the environment. We take pride in preserving Sri Lanka’s 
-          stunning ecosystems, ensuring that they remain pristine for future generations to explore and cherish.
-
-         We also actively support reforestation projects, promote eco-tourism within local communities, and empower them with sustainable 
-         livelihood opportunities. By combining thrilling adventures with a commitment to environmental stewardship, we invite our guests to 
-         not only explore the beauty of nature but also become active participants in its preservation. At Epic Venture Ceylon, your journey leaves more than just footprints
+          At Jungle Odyssey, sustainability and respect for nature are at the heart of everything we do. Our experiences are designed to offer thrilling adventures while minimizing environmental impact and fostering a deep appreciation for the natural world. 
+          From eco-friendly camping facilities and waste reduction efforts to guided activities that promote conservation awareness, we ensure that every aspect of our operations aligns with responsible tourism. We take pride in protecting our stunning landscapes, 
+          ensuring they remain untouched for future generations to explore and cherish. By supporting local eco-tourism, engaging in reforestation projects, and empowering nearby communities with sustainable opportunities, we go beyond adventure to create a positive impact. 
+          At Jungle Odyssey, every journey is not just about exploring the wild—it’s about preserving it for years to come.
          </p>
 
         </div>

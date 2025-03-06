@@ -298,3 +298,39 @@
     font-size: 1.2rem;
   }
 }
+
+/* Add this at the end of Contact.css */
+.error {
+  color: #e74c3c; /* Red color for errors */
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: -2rem;
+  left: 0;
+  width: 100%;
+  display: block; /* Ensure it’s not hidden */
+  background: transparent; /* Remove any inherited background */
+  padding: 0.2rem 0;
+  z-index: 10; /* Ensure it’s not overlapped */
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 2.5rem; /* Increase margin to accommodate error messages */
+}
+
+.message-container .error {
+  bottom: -2.2rem; /* Adjust for textarea */
+}
+
+/* Ensure input fields don’t interfere with error styling */
+.input-container input,
+.input-container select,
+.input-container textarea {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  background: #eaeceb; /* Keep the input background */
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}

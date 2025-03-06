@@ -25,6 +25,7 @@
     text-align: center;
     font-weight: bold;
     color: #b6b2aa;
+    font-size: 30px;
   }
   .story p:first-of-type{
     padding: 10px;
@@ -39,10 +40,13 @@
  .heading2{
     padding: 10px;
     text-align: center;
+    color: #a5a39d;
  }
  .heading3{
     padding: 20px;
     text-align: center;
+    color: #a5a39d;
+    
  }
  #activities-section {
     display: flex;
@@ -56,10 +60,10 @@
   .activities {
     display: flex;
     flex-direction: row;
-    
+    flex-wrap: wrap;
     align-items: flex-start;
     width: 100%;
-    gap: 20px;
+    gap: 30px;
   }
   
   .imageoption{
@@ -86,27 +90,58 @@
     display: flex;
     flex-direction: column;
     justify-content: right;
-    align-items: center;
-    /*text-align: center;*/
+    align-items: flex-start;
+    
   }
  .list h4{
-    font-size: 1.8rem;
+    font-size: 20px;
     margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.6rem
+    ;
   }
 .list ul{
-    list-style-type: disc;
-  padding-left: 20px;
+  /*list-style-type: disc;
+  /*padding-left: 10px;
+  padding-left: 20px;  Adjust spacing 
+  margin-left: 20px; */
+  list-style-type: disc;  /* Ensure bullets appear */
+  text-align: left;  /* Align text properly with bullets */
+  display: inline-block;  /* Allows centering */
+  padding-left: 20px;  /* Adjust spacing */
+  margin: 0 auto;  /* Centers the list */
+
 }
 .list li{
-    margin-bottom: 8px;
-  font-size: 1rem;
+    margin-bottom: 5px;
+  font-size: 1.18rem;
+  
 }
+.list li::marker {
+  content: "• ";  /* Ensure bullet points are shown */
+  color: black;  /* Match bullet color */
+}
+.imageoption{
+  padding: 20px !important;
+  align-items: center;
+}
+
 .slick-prev, .slick-next {
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    border-radius: 50% !important;
+    height: 80px !important;
+    width: 80px !important;
     z-index:  10 ; /* Ensure they are above other elements */
+    align-items: center;
+    padding: 50px;
+    display: flex; /* Ensures proper alignment */
+    justify-content: center; /* Centers arrow inside */
+    align-items: center !important; /* Centers arrow vertically */
+    position: absolute !important; /* Ensures proper placement */
+    top: 50%; /* Centers vertically */
+    transform: translateY(-50%);
   }
   
   .slick-prev:before, .slick-next:before {
@@ -114,7 +149,7 @@
     color: white; 
   }
   .slick-prev {
-    left: 30px; 
+    left: 10px; 
   }
   
   .slick-next {

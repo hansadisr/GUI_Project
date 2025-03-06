@@ -56,8 +56,16 @@ export default function Home() {
     <h2>Who We Are</h2>
     <br></br>
     <p>
-      Explore the most breathtaking camping destinations around the world. From serene cabins to thrilling outdoor adventures,
-       we have something for every explorer. Plan your journey today and create unforgettable memories with your loved ones.
+    Jungle Odyssey is your gateway to an unforgettable outdoor experience, offering scenic camping sites, 
+    thrilling adventures, and delicious campfire cuisine. Whether you seek a peaceful retreat in nature or an 
+    action-packed getaway, our campsites provide the perfect balance of comfort and wilderness. Enjoy breathtaking landscapes,
+     exciting activities like hiking and zip-lining, and savor flavorful jungle-inspired meals—all designed to
+     make your adventure truly memorable.
+    </p> <br></br>
+    <p>
+    At Jungle Odyssey, we believe in creating experiences that connect you with nature while ensuring safety and comfort. 
+    Whether you're a solo traveler, a group of friends, or a family, 
+    our well-equipped campsites and guided adventures guarantee an exciting and refreshing escape into the wild
     </p>
   </div>
 
